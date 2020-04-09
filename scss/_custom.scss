@@ -35,7 +35,7 @@ strong, li, p, span { font-size: 18px; }
 /********************************/
 /******** NAVBAR SECTION ********/
 /********************************/
-$navMargTop: calc(100vh + 20px);
+$navMargTop: 20px;
 nav.navbar { display: block; float: right; padding:0px; margin: $navMargTop 20px 0px 0px;
 	div {
 		ul.navbar-nav {
@@ -50,104 +50,6 @@ nav.navbar { display: block; float: right; padding:0px; margin: $navMargTop 20px
 nav.sticky-top { top: 20px; }
 
 
-/********************************/
-/********* HERO SECTION *********/
-/********************************/
-#hero {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-#particles-js {
-	position: absolute;
-	width: 100vw;
-	height: 100vh;
-	background-image: linear-gradient(rgb(15, 30, 55), rgb(30, 65, 90));
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-/****** HERO - Title ******/
-#title-box {
-	position: absolute;
-	top: 30vh;
-	padding: 20px;
-	text-align: center;
-	width: 80vw;
-	max-width: 800px;
-}
-// fill-in animation
-#title {
-	-webkit-animation: fill-in 2s ease forwards 4s;
-  animation: fill-in 2s ease forwards 4s;
-}
-@-webkit-keyframes fill-in {
-	0% { fill: transparent; }
-	100% { fill: var(--title-black); }
-}
-@keyframes fill-in {
-	0% { fill: transparent; }
-	100% { fill: var(--title-black); }
-}
-// drawMe animation
-@-webkit-keyframes drawMe {
-	to { stroke-dashoffset: 0; }
-}
-@keyframes drawMe {
-	to { stroke-dashoffset: 0; }
-}
-#title>path:nth-of-type(1),
-#title>path:nth-of-type(4),
-#title>path:nth-of-type(8) {
-	stroke-dasharray: 400;
-	stroke-dashoffset: 400;
-	animation: 6s drawMe ease-in-out forwards 1.5s;
-}
-#title>path:nth-of-type(3),
-#title>path:nth-of-type(5),
-#title>path:nth-of-type(9) {
-	stroke-dasharray: 450;
-	stroke-dashoffset: 450;
-	animation: 8s drawMe linear forwards 1s;
-}
-#title>path:nth-of-type(6),
-#title>path:nth-of-type(10) {
-	stroke-dasharray: 500;
-	stroke-dashoffset: 500;
-	animation: 10s drawMe linear forwards;
-}
-#title>path:nth-of-type(2),
-#title>path:nth-of-type(7) {
-	stroke-dasharray: 360;
-	stroke-dashoffset: 360;
-	animation: 7s drawMe linear forwards;
-}
-/****** HERO - Arrow ******/
-#down-arrow {
-	font-size: 3em;
-	position: absolute;
-	display: block;
-	bottom: 50px;
-	padding: 25px 10px;
-	color: var(--title-black);
-	animation: up-down 2000ms ease-in-out infinite;
-	-webkit-animation: up-down 2000ms ease-in-out infinite;
-}
-#down-arrow:hover {
-	cursor: pointer;
-}
-@-webkit-keyframes up-down {
-	0% { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
-	50% { transform: translateY(-50px); -webkit-transform: translateY(-50px); -moz-transform: translateY(-50px); -ms-transform: translateY(-50px); -o-transform: translateY(-50px); }
-	100% { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
-}
-@keyframes up-down {
-	0% { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
-	50% { transform: translateY(-50px); -webkit-transform: translateY(-50px); -moz-transform: translateY(-50px); -ms-transform: translateY(-50px); -o-transform: translateY(-50px); }
-	100% { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
-}
-
 
 /********************************/
 /******* PROFILE SECTION ********/
@@ -155,63 +57,6 @@ nav.sticky-top { top: 20px; }
 
 #_profile { background-color: #fafafa; padding-bottom: 80px; }
 .profile-text { font-size: 1.5em; }
-
-
-/********************************/
-/****** EDUCATION SECTION *******/
-/********************************/
-
-#education {
-	margin: 0 auto;
-}
-.education-card {
-	display: block;
-	text-align: center;
-	max-width: 600px;
-	img {
-		width: 200px;
-		height: 200px;
-	}
-	article {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-items: center;
-		padding: 20px 0;
-		.title, .subTitle, .school { margin: 0; width: 100%; }
-		.title { font-size: 1.7em; }
-		.subTitle { font-size: 1.4em; padding: 10px 0; }
-		.school { display: none; }
-	}
-}
-
-@media screen and (min-width: 600px) {
-	.education-card {
-		display: grid;
-		grid-template-columns: 200px auto;
-		padding: 20px;
-		article {
-			margin-left: 15px;
-			text-align: left;
-			padding: 0;
-			.school { display: block; font-size: 1.3em; }
-		}
-	}
-}
-
-@media screen and (min-width: 1200px) {
-	.education-list {
-		display: flex;
-		flex-wrap: wrap;
-		.education-card {
-			display: flex;
-			align-items: center;
-			width: 50%;
-			padding: 20px;
-			img { margin: 10px auto; }
-		}
-	}
-}
 
 
 
@@ -241,17 +86,17 @@ nav.sticky-top { top: 20px; }
 /********************************/
 /****** EXPERIENCE SECTION ******/
 /********************************/
-#_experience { background-color: #fafafa; }
-.experiences { padding: 20px 0px;
-	.experience { padding: 5px 0px; }
-}
-.coreList { padding-left: 4%; }
-.skillList { list-style-type: none;
-	li { padding-left: 2%;
-		i { font-size: 1.5em; width: 1.8em; height: 1.3em; }
-		span { font-size: 1.1em}
-	}
-}
+// #_experience { background-color: #fafafa; }
+// .experiences { padding: 20px 0px;
+// 	.experience { padding: 5px 0px; }
+// }
+// .coreList { padding-left: 4%; }
+// .skillList { list-style-type: none;
+// 	li { padding-left: 2%;
+// 		i { font-size: 1.5em; width: 1.8em; height: 1.3em; }
+// 		span { font-size: 1.1em}
+// 	}
+// }
 
 /********************************/
 /******* PROJECTS SECTION *******/
@@ -355,15 +200,15 @@ nav.sticky-top { top: 20px; }
 	}
 
 	// Education
-	.skillList {
-		li:hover {
-			.fa-comments, .fa-user-tie { color: $color1; }
-			.fa-handshake, .fa-user-clock { color: $color2; }
-			.fa-users, .fa-user { color: $color3; }
-			.fa-trophy, .fa-puzzle-piece { color: $color4; }
-			.fa-search, .fa-brain { color: $color5; }			
-		}
-	}
+	// .skillList {
+	// 	li:hover {
+	// 		.fa-comments, .fa-user-tie { color: $color1; }
+	// 		.fa-handshake, .fa-user-clock { color: $color2; }
+	// 		.fa-users, .fa-user { color: $color3; }
+	// 		.fa-trophy, .fa-puzzle-piece { color: $color4; }
+	// 		.fa-search, .fa-brain { color: $color5; }			
+	// 	}
+	// }
 
 	// Projects
 	.card-img-overlay:hover { background: aquamarine; 
