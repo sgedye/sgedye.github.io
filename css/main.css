@@ -124,9 +124,6 @@ nav.sticky-top {
       padding-top: 5px; }
 
 /********************************/
-/****** EXPERIENCE SECTION ******/
-/********************************/
-/********************************/
 /******* PROJECTS SECTION *******/
 /********************************/
 .card {
@@ -160,41 +157,6 @@ nav.sticky-top {
         opacity: 0%; }
       .card .card-img-overlay .text-overlay .card-text {
         opacity: 0%; }
-
-/********************************/
-/******** FOOTER SECTION ********/
-/********************************/
-#_footer {
-  background-color: #444; }
-
-.footer-block {
-  background-color: #cacaca;
-  width: 100%;
-  margin-left: 0px;
-  margin-right: 0px; }
-  .footer-block .footer-section {
-    padding: 5%;
-    background-color: #cacaca; }
-    .footer-block .footer-section .list-group .list-group-item {
-      justify-content: center; }
-      .footer-block .footer-section .list-group .list-group-item a {
-        text-decoration: none !important; }
-      .footer-block .footer-section .list-group .list-group-item .footer-icon {
-        font-size: 4em;
-        width: 80px;
-        text-align: center;
-        color: #400080; }
-      .footer-block .footer-section .list-group .list-group-item .footer-icon-desc {
-        font-size: 1.8em;
-        line-height: 60px;
-        padding-left: 10px;
-        vertical-align: text-bottom;
-        color: #400080; }
-      .footer-block .footer-section .list-group .list-group-item .hide-me-sml {
-        visibility: hidden;
-        position: fixed; }
-      .footer-block .footer-section .list-group .list-group-item .show-me-sml {
-        visibility: visible; }
 
 /* Small - Mobile Landscape (≥576px) */
 /* Medium - ipads (≥768px)*/
@@ -283,22 +245,7 @@ nav.sticky-top {
       -moz-animation: slideInRight 1s;
       -MS-animation: slideInRight 1s;
       -o-animation: slideInRight 1s;
-      animation: slideInRight 1s; }
-  .list-group-item .footer-icon-desc {
-    font-size: 2em !important; }
-  .list-group-item .hide-me-sml {
-    visibility: visible !important;
-    position: static !important; }
-  .list-group-item .show-me-sml {
-    visibility: hidden !important; }
-  .list-group-item:hover {
-    background-color: #eeeeee; }
-    .list-group-item:hover .footer-icon {
-      -webkit-transform: scale(1.1);
-      -moz-transfrom: scale(1.1);
-      -ms-transfrom: scale(1.1);
-      -o-transform: scale(1.1);
-      transform: scale(1.1); } }
+      animation: slideInRight 1s; } }
 
 /* Extra large devices - large desktops (≥1200px) */
 /********************************/
@@ -486,6 +433,39 @@ nav.sticky-top {
       padding: 20px; }
       .education-list .education-card img {
         margin: 10px auto; } }
+
+/********************************/
+/******** FOOTER SECTION ********/
+/********************************/
+#footer {
+  background-color: #444; }
+
+#footer .row {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px; }
+
+.footer-link {
+  text-decoration: none !important;
+  color: white; }
+  .footer-link i {
+    font-size: 3em;
+    font-weight: 400; }
+  .footer-link span {
+    display: none; }
+
+/* Large - laptops (≥992px) */
+@media screen and (min-width: 600px) {
+  .footer-link i {
+    -webkit-transform: scale(1.1);
+    -moz-transfrom: scale(1.1);
+    -ms-transfrom: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+  .footer-link span {
+    display: inline;
+    font-size: 2em;
+    padding-left: 10px; } }
 
 /*!
  * animate.css -https://daneden.github.io/animate.css/

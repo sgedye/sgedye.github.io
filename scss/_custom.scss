@@ -84,21 +84,6 @@ nav.sticky-top { top: 20px; }
 }
 
 /********************************/
-/****** EXPERIENCE SECTION ******/
-/********************************/
-// #_experience { background-color: #fafafa; }
-// .experiences { padding: 20px 0px;
-// 	.experience { padding: 5px 0px; }
-// }
-// .coreList { padding-left: 4%; }
-// .skillList { list-style-type: none;
-// 	li { padding-left: 2%;
-// 		i { font-size: 1.5em; width: 1.8em; height: 1.3em; }
-// 		span { font-size: 1.1em}
-// 	}
-// }
-
-/********************************/
 /******* PROJECTS SECTION *******/
 /********************************/
 .card { 
@@ -114,25 +99,6 @@ nav.sticky-top { top: 20px; }
 	}
 }
 
-/********************************/
-/******** FOOTER SECTION ********/
-/********************************/
-#_footer { background-color: #444; }
-.footer-block { 
-	background-color: #cacaca; width: 100%; margin-left: 0px; margin-right: 0px;
-	.footer-section { padding: 5%; background-color: #cacaca;
-		.list-group {
-			.list-group-item {
-				justify-content: center;
-				a { text-decoration: none !important; }
-				.footer-icon { font-size:4em; width: 80px; text-align:center; color: $purple-color; }
-				.footer-icon-desc { font-size:1.8em; line-height: 60px; padding-left: 10px; vertical-align: text-bottom; color: $purple-color; }
-				.hide-me-sml { visibility: hidden; position: fixed; }
-				.show-me-sml { visibility: visible; }
-			}
-		}
-	}
-}
 
 /* Small - Mobile Landscape (≥576px) */
 @media (min-width: 576px) {
@@ -199,17 +165,6 @@ nav.sticky-top { top: 20px; }
 		filter: grayscale(0);
 	}
 
-	// Education
-	// .skillList {
-	// 	li:hover {
-	// 		.fa-comments, .fa-user-tie { color: $color1; }
-	// 		.fa-handshake, .fa-user-clock { color: $color2; }
-	// 		.fa-users, .fa-user { color: $color3; }
-	// 		.fa-trophy, .fa-puzzle-piece { color: $color4; }
-	// 		.fa-search, .fa-brain { color: $color5; }			
-	// 	}
-	// }
-
 	// Projects
 	.card-img-overlay:hover { background: aquamarine; 
 		i { opacity: 100%; }
@@ -235,22 +190,6 @@ nav.sticky-top { top: 20px; }
 		}
 	}
 
-	//Footer | Contacts
-	.list-group-item { 
-		.footer-icon-desc { font-size:2em !important; }
-		.hide-me-sml { visibility: visible !important; position: static !important; }
-		.show-me-sml { visibility: hidden !important; }
-	}
-	.list-group-item:hover {
-		background-color: #eeeeee;
-		.footer-icon {
-			-webkit-transform: scale(1.1);
-			-moz-transfrom: scale(1.1);
-			-ms-transfrom: scale(1.1);
-			-o-transform: scale(1.1);
-			transform: scale(1.1);
-		}
-	}
 }
 
 /* Extra large devices - large desktops (≥1200px) */
