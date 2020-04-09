@@ -1,0 +1,27 @@
+{
+  "name": "sgedye.github.io",
+  "version": "1.0.0",
+  "description": "[View Online Resume](https://sgedye.github.io) hosted on GitHub Pages.",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgedye/sgedye.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgedye/sgedye.github.io/issues"
+  },
+  "homepage": "https://github.com/sgedye/sgedye.github.io#readme"
+}

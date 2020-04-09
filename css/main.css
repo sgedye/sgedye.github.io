@@ -229,6 +229,61 @@ nav.sticky-top {
   font-size: 1.5em; }
 
 /********************************/
+/****** EDUCATION SECTION *******/
+/********************************/
+#education {
+  margin: 0 auto; }
+
+.education-card {
+  display: block;
+  text-align: center;
+  max-width: 600px; }
+  .education-card img {
+    width: 200px;
+    height: 200px; }
+  .education-card article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 20px 0; }
+    .education-card article .title, .education-card article .subTitle, .education-card article .school {
+      margin: 0;
+      width: 100%; }
+    .education-card article .title {
+      font-size: 1.7em; }
+    .education-card article .subTitle {
+      font-size: 1.4em;
+      padding: 10px 0; }
+    .education-card article .school {
+      display: none; }
+
+@media screen and (min-width: 600px) {
+  .education-card {
+    display: grid;
+    grid-template-columns: 200px auto;
+    padding: 20px; }
+    .education-card article {
+      margin-left: 15px;
+      text-align: left;
+      padding: 0; }
+      .education-card article .school {
+        display: block;
+        font-size: 1.3em; } }
+
+@media screen and (min-width: 1200px) {
+  .education-list {
+    display: flex;
+    flex-wrap: wrap; }
+    .education-list .education-card {
+      display: flex;
+      align-items: center;
+      width: 50%;
+      padding: 20px; }
+      .education-list .education-card img {
+        margin: 10px auto; } }
+
+/********************************/
 /****** ABILITIES SECTION *******/
 /********************************/
 .skill-group h3 {

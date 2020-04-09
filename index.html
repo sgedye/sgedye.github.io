@@ -62,7 +62,8 @@
     </button>
     <div class="collapse navbar-collapse" id="_navbarToggler">
       <ul class="navbar-nav nav nav-pills flex-column">
-        <li class="nav-item bg-dark"><a class="nav-link" href="#_profile">Profile</a></li>
+				<li class="nav-item bg-dark"><a class="nav-link" href="#profile">Profile</a></li>
+				<li class="nav-item bg-dark"><a class="nav-link" href="#education">New Edu</a></li>
         <li class="nav-item bg-dark"><a class="nav-link" href="#_abilities">Abitilies</a></li>
         <li class="nav-item bg-dark"><a class="nav-link" href="#_experience">Experience</a></li>
         <li class="nav-item bg-dark"><a class="nav-link" href="#_projects">Projects</a></li>
@@ -77,13 +78,29 @@
   </nav>
 
   <!-- PROFILE -->
-  <section id="_profile" class="container-fluid">
+  <section id="profile" class="container-fluid">
 	<div class="container">
 	  <h2 class="section-heading">PROFILE</h2>
 	  <p class="profile-text">I believe in writing modular, highly intuitive code, following web standards and industry best practices to design responsive, mobile-first, pixel-perfect webpages. A great user experience is paramount, so creating accessible websites where the branding and the 'look and feel' are consistent across devices and browsers is a must.
 Stimulated by challenges and a love of learning I will be a real asset, as I not only do I have the technical know-how, but I also possess the soft-skills required to help your organisation thrive.</p>
 	</div>
   </section>
+
+
+
+
+
+	<!-- EDUCATION -->
+	<section id="education" class="container-fluid">
+		<div id="education-contents" class="container">
+			<h2 class="section-heading">EDUCATION</h2>
+			</br>
+			<!-- education javascript hooks in here -->
+	</section>
+
+
+
+
 
   <!-- ABILITIES -->
   <section id="_abilities" class="container-fluid">
@@ -266,22 +283,6 @@ Stimulated by challenges and a love of learning I will be a real asset, as I not
 		</div>	
 	</div>
 	</section>
-
-	<!-- Still to learn / insert:
-		-- SQL	( <i class="fas fa-database"></i> )
-		-- Node.js
-		-- Vue.js
-
-	-Cannot find a picture / picture not working:
-		-- CV ()
-		-- Responsive Design
-		-- SEO
-		-- Social Media Integration
-		-- MS Office / Excel
-		-- Koala
-		-- OO Programming
-		-- Coding Best Practices (use a star maybe?)
-	-->
 
   <!-- EXPERIENCE -->
   <section id="_experience" class="container-fluid">
@@ -520,52 +521,21 @@ Stimulated by challenges and a love of learning I will be a real asset, as I not
 
 
   <!-- SCRIPTS -->
-  <!--
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/tether.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-
-  <script src="./js/tether.min.js"></script>  -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	
 	<script src="./js/particles.min.js"></script>
 	<script src="./js/app.js"></script>
+
+
+	<script src="./js/education.js"></script>
 	<script src="./js/custom.js"></script>
-
-	<!--
-	<script>
-		$(document).ready(function() {
-			$('#_title').addClass('animated shake');
-			$('#_title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-				$('#_title').removeClass('animated shake');
-				$('#_title').addClass('animated shake');
-
-			});
-		});
-	</script>
-	-->
-
-
-	<!-- Making a button shake with jQuery & Aminate.css 
-	<button id="button007">Button</button>
-	<script>
-		$('#button007').on('click', function() {
-			$('#button007').addClass('animated shake');
-			$('#button007').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-				$('#button007').removeClass('animated shake');
-			});
-		});
-	</script>
-	-->
-
 
 </body>
 </html>
 
 	
-
 <!-- NOTES:
 
 //Including in PHP ----- note CANNOT use PHP with ***** GitHub Pages *****
@@ -573,81 +543,3 @@ Stimulated by challenges and a love of learning I will be a real asset, as I not
 
 //Body attributes one may include
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
-
-//Navigation
-<div class="navbar-collapse navbar-ex1-collapse collapse" style="height: 1px;">
-	<ul class="nav navbar-nav">
-		<li class="active"><a href="#profile">Profile</a></li>
-		<li class=""><a href="#experiences">Experiences</a></li>
-		<li class=""><a href="#abilities">Abilities</a></li>
-		<li class=""><a href="#projects">Projects</a></li>
-		<li class=""><a href="#contact">Contact</a></li>
-	</ul>
-</div>
--->
-
-
-<!--NAV BAR #2   WORKING!! -- not updated
-<nav class="navbar navbar-default" id="navbar-example" role="navigation">
-	-- Brand and toggle get grouped for better mobile display --
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-	</div>
-
-	-- Collect the nav links, forms, and other content for toggling --
-	<div class="collapse navbar-collapse navbar-ex1-collapse">
-		<ul class="nav navbar-nav">
-			<li class="active"><a href="#_profile">Profile</a></li>
-			<li><a href="#_experience">Experiences</a></li>
-			<li><a href="#_abilities">Abilities</a></li>
-			<li><a href="#_projects">Projects</a></li>
-			<li><a href="#_footer">Footer</a></li>
-		</ul>
-	</div>
-</nav>
--->
-
-<!-- using jquery to make change upon screen resize
-
-HTML	: 	<div id="_mediaQ"><p>Empty</p></div>
-CSS		:		@media (min-width: 1200px) { #_mediaQ {background-color: pink;} }
-jQuery:
-  <script>
-		$(document).ready(function() {
-			$(".experiences").css("background-color", "lightblue");
-			$(".experiences:odd").css("background-color", "yellow");
-			$(".experience:odd").css("background-color", "pink");
-			$(".experience:even").css("background-color", "lightgrey");
-		});
-	</script>
-
-	<script>	
-	  $(document).ready(function() {
-	  	function ele_adjust() {
-        	if ($("#_mediaQ").css("background-color") == "red" ) {
-				$('body').css("background-color", "red");
-				$("#_mediaQ").remove();
-			} else if ($("#_mediaQ").css("background-color") == "black" ) {
-				$('body').css("background-color", "black");
-				$("#_mediaQ").children().text("Large - Laptop");
-			} else if ($("#_mediaQ").css("background-color") == "blue" ) {
-				$('body').css("background-color", "blue");
-				$("#_mediaQ").children().text("Small - Landscape Mobile");
-			} else if ($("#_mediaQ").css("background-color") == "pink" ) {
-				$('body').css("background-color", "pink");
-				$("#_mediaQ").children().text("x-large - Big Desktops");
-			} else {
-				$('body').css("background-color", "white");
-				$("#_mediaQ").children().text("x-small - Portrait Phone");
-    		};
-			ele_adjust();
-			$(window).resize(ele_adjust);
-	    }
-	  });
-	</script>
--->

@@ -158,6 +158,64 @@ nav.sticky-top { top: 20px; }
 
 
 /********************************/
+/****** EDUCATION SECTION *******/
+/********************************/
+
+#education {
+	margin: 0 auto;
+}
+.education-card {
+	display: block;
+	text-align: center;
+	max-width: 600px;
+	img {
+		width: 200px;
+		height: 200px;
+	}
+	article {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-items: center;
+		padding: 20px 0;
+		.title, .subTitle, .school { margin: 0; width: 100%; }
+		.title { font-size: 1.7em; }
+		.subTitle { font-size: 1.4em; padding: 10px 0; }
+		.school { display: none; }
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.education-card {
+		display: grid;
+		grid-template-columns: 200px auto;
+		padding: 20px;
+		article {
+			margin-left: 15px;
+			text-align: left;
+			padding: 0;
+			.school { display: block; font-size: 1.3em; }
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.education-list {
+		display: flex;
+		flex-wrap: wrap;
+		.education-card {
+			display: flex;
+			align-items: center;
+			width: 50%;
+			padding: 20px;
+			img { margin: 10px auto; }
+		}
+	}
+}
+
+
+
+/********************************/
 /****** ABILITIES SECTION *******/
 /********************************/
 
