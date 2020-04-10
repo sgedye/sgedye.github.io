@@ -126,38 +126,6 @@ nav.sticky-top {
 /********************************/
 /******* PROJECTS SECTION *******/
 /********************************/
-.card {
-  box-shadow: 1px 2px 8px #aaa; }
-  .card:hover {
-    transform: translate(1px, 2px);
-    -webkit-transform: translate(1px, 2px);
-    box-shadow: none; }
-  .card .card-img-overlay {
-    margin: 0px;
-    padding: 0px; }
-    .card .card-img-overlay i {
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      font-size: 2em;
-      padding: 10px !important;
-      background-color: green;
-      padding: 5px; }
-    .card .card-img-overlay .text-overlay {
-      background-size: cover;
-      position: absolute !important;
-      top: 0px;
-      left: 0px;
-      padding: 10%; }
-      .card .card-img-overlay .text-overlay .card-title {
-        opacity: 0%; }
-      .card .card-img-overlay .text-overlay hr {
-        border-width: 5px;
-        border-color: #000000;
-        opacity: 0%; }
-      .card .card-img-overlay .text-overlay .card-text {
-        opacity: 0%; }
-
 /* Small - Mobile Landscape (≥576px) */
 /* Medium - ipads (≥768px)*/
 @media (min-width: 768px) {
@@ -174,9 +142,7 @@ nav.sticky-top {
   h4 {
     font-size: 1.8em; }
   h5 {
-    font-size: 1.4em; }
-  .card-deck {
-    margin: 30px; } }
+    font-size: 1.4em; } }
 
 /* Large - laptops (≥992px) */
 @media (min-width: 992px) {
@@ -217,35 +183,7 @@ nav.sticky-top {
     -moz-filter: grayscale(0);
     -ms-filter: grayscale(0);
     -o-filter: grayscale(0);
-    filter: grayscale(0); }
-  .card-img-overlay:hover {
-    background: aquamarine; }
-    .card-img-overlay:hover i {
-      opacity: 100%; }
-    .card-img-overlay:hover img {
-      opacity: 20%; }
-    .card-img-overlay:hover .card-body {
-      opacity: 20%; }
-    .card-img-overlay:hover .card-footer {
-      opacity: 20%; }
-    .card-img-overlay:hover .text-overlay .card-title {
-      opacity: 100%;
-      font-weight: 800; }
-    .card-img-overlay:hover .text-overlay hr {
-      opacity: 50%;
-      -webkit-animation: slideInLeft 1s;
-      -moz-animation: slideInLeft 1s;
-      -MS-animation: slideInLeft 1s;
-      -o-animation: slideInLeft 1s;
-      animation: slideInLeft 1s; }
-    .card-img-overlay:hover .text-overlay .card-text {
-      opacity: 100%;
-      font-weight: 600;
-      -webkit-animation: slideInRight 1s;
-      -moz-animation: slideInRight 1s;
-      -MS-animation: slideInRight 1s;
-      -o-animation: slideInRight 1s;
-      animation: slideInRight 1s; } }
+    filter: grayscale(0); } }
 
 /* Extra large devices - large desktops (≥1200px) */
 /********************************/

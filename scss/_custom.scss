@@ -86,18 +86,18 @@ nav.sticky-top { top: 20px; }
 /********************************/
 /******* PROJECTS SECTION *******/
 /********************************/
-.card { 
-	box-shadow: 1px 2px 8px #aaa;
-	&:hover { transform: translate(1px, 2px); -webkit-transform: translate(1px, 2px); box-shadow: none; }
-	.card-img-overlay { margin: 0px; padding: 0px;
-		i { position: absolute; top: 0px; right: 0px; font-size: 2em; padding: 10px !important; background-color: green; padding: 5px; }
-		.text-overlay { background-size: cover; position: absolute !important; top: 0px; left: 0px; padding: 10%;
-			.card-title { opacity: 0%; }
-			hr { border-width: 5px; border-color: #000000; opacity: 0%; }
-			.card-text { opacity: 0%; }
-		}
-	}
-}
+// .card { 
+// 	box-shadow: 1px 2px 8px #aaa;
+// 	&:hover { transform: translate(1px, 2px); -webkit-transform: translate(1px, 2px); box-shadow: none; }
+// 	.card-img-overlay { margin: 0px; padding: 0px;
+// 		i { position: absolute; top: 0px; right: 0px; font-size: 2em; padding: 10px !important; background-color: green; padding: 5px; }
+// 		.text-overlay { background-size: cover; position: absolute !important; top: 0px; left: 0px; padding: 10%;
+// 			.card-title { opacity: 0%; }
+// 			hr { border-width: 5px; border-color: #000000; opacity: 0%; }
+// 			.card-text { opacity: 0%; }
+// 		}
+// 	}
+// }
 
 
 /* Small - Mobile Landscape (≥576px) */
@@ -116,7 +116,7 @@ nav.sticky-top { top: 20px; }
 	h5 { font-size: 1.4em; }
 
 	//Projects
-	.card-deck { margin: 30px; }
+	// .card-deck { margin: 30px; }
 }
 
 /* Large - laptops (≥992px) */
@@ -166,29 +166,29 @@ nav.sticky-top { top: 20px; }
 	}
 
 	// Projects
-	.card-img-overlay:hover { background: aquamarine; 
-		i { opacity: 100%; }
-		img { opacity: 20%; }
-		.card-body { opacity: 20%; }
-		.card-footer { opacity: 20%; }
-		.text-overlay {
-			.card-title { opacity: 100%; font-weight: 800;}
-			hr { opacity: 50%;
-				-webkit-animation: slideInLeft 1s;
-				-moz-animation: slideInLeft 1s;
-				-MS-animation: slideInLeft 1s;
-				-o-animation: slideInLeft 1s;
-				animation: slideInLeft 1s;	
-			}
-			.card-text { opacity: 100%; font-weight: 600;
-				-webkit-animation: slideInRight 1s;
-				-moz-animation: slideInRight 1s;
-				-MS-animation: slideInRight 1s;
-				-o-animation: slideInRight 1s;
-				animation: slideInRight 1s;
-			}
-		}
-	}
+	// .card-img-overlay:hover { background: aquamarine; 
+	// 	i { opacity: 100%; }
+	// 	img { opacity: 20%; }
+	// 	.card-body { opacity: 20%; }
+	// 	.card-footer { opacity: 20%; }
+	// 	.text-overlay {
+	// 		.card-title { opacity: 100%; font-weight: 800;}
+	// 		hr { opacity: 50%;
+	// 			-webkit-animation: slideInLeft 1s;
+	// 			-moz-animation: slideInLeft 1s;
+	// 			-MS-animation: slideInLeft 1s;
+	// 			-o-animation: slideInLeft 1s;
+	// 			animation: slideInLeft 1s;	
+	// 		}
+	// 		.card-text { opacity: 100%; font-weight: 600;
+	// 			-webkit-animation: slideInRight 1s;
+	// 			-moz-animation: slideInRight 1s;
+	// 			-MS-animation: slideInRight 1s;
+	// 			-o-animation: slideInRight 1s;
+	// 			animation: slideInRight 1s;
+	// 		}
+	// 	}
+	// }
 
 }
 

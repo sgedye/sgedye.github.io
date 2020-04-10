@@ -1254,6 +1254,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/projects/optica-full.png": {
+		"ft": 32768,
+		"iS": 3576320,
+		"oA": 0,
+		"oAP": "/assets/projects/optica-full.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/projects/optica-ipad.png": {
 		"ft": 32768,
 		"iS": 1420901,
