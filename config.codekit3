@@ -916,33 +916,55 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/projects/cuba.png": {
+	"/assets/projects/computer-1271863_1280.png": {
 		"ft": 32768,
-		"iS": 55011,
+		"iS": 43952,
 		"oA": 0,
-		"oAP": "/assets/projects/cuba.png",
+		"oAP": "/assets/projects/computer-1271863_1280.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/grandmas.png": {
+	"/assets/projects/computer-1271863_1280a.png": {
 		"ft": 32768,
-		"iS": 79565,
+		"iS": 46863,
 		"oA": 0,
-		"oAP": "/assets/projects/grandmas.png",
+		"oAP": "/assets/projects/computer-1271863_1280a.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/gymnastics.png": {
+	"/assets/projects/mini-full.png": {
 		"ft": 32768,
-		"iS": 39228,
+		"iS": 1422025,
 		"oA": 0,
-		"oAP": "/assets/projects/gymnastics.png",
+		"oAP": "/assets/projects/mini-full.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/mini-ipad.png": {
+		"ft": 32768,
+		"iS": 508164,
+		"oA": 0,
+		"oAP": "/assets/projects/mini-ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/mini-iphone8.png": {
+		"ft": 32768,
+		"iS": 440568,
+		"oA": 0,
+		"oAP": "/assets/projects/mini-iphone8.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -960,176 +982,294 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/cuba/home.png": {
-		"ft": 32768,
-		"iS": 2971919,
+	"/assets/projects/mini-projects.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/cuba/home.png",
+		"oAP": "/assets/projects/mini-projects.psd",
+		"oF": 0
+		},
+	"/assets/projects/old/cuba.png": {
+		"ft": 32768,
+		"iS": 55011,
+		"oA": 0,
+		"oAP": "/assets/projects/old/cuba.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/grandmas.png": {
+	"/assets/projects/old/grandmas.png": {
 		"ft": 32768,
 		"iS": 79565,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/grandmas.png",
+		"oAP": "/assets/projects/old/grandmas.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/gymnastics.png": {
+	"/assets/projects/old/gymnastics.png": {
+		"ft": 32768,
+		"iS": 39228,
+		"oA": 0,
+		"oAP": "/assets/projects/old/gymnastics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/old/mini-projects.png": {
+		"ft": 32768,
+		"iS": 104473,
+		"oA": 0,
+		"oAP": "/assets/projects/old/mini-projects.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/old/not-tiny/cuba/home.png": {
+		"ft": 32768,
+		"iS": 2971919,
+		"oA": 0,
+		"oAP": "/assets/projects/old/not-tiny/cuba/home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/old/not-tiny/grandmas.png": {
+		"ft": 32768,
+		"iS": 79565,
+		"oA": 0,
+		"oAP": "/assets/projects/old/not-tiny/grandmas.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/old/not-tiny/gymnastics.png": {
 		"ft": 32768,
 		"iS": 47288,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/gymnastics.png",
+		"oAP": "/assets/projects/old/not-tiny/gymnastics.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/home.png": {
+	"/assets/projects/old/not-tiny/home.png": {
 		"ft": 32768,
 		"iS": 64104,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/home.png",
+		"oAP": "/assets/projects/old/not-tiny/home.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/home01.png": {
+	"/assets/projects/old/not-tiny/home01.png": {
 		"ft": 32768,
 		"iS": 125320,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/home01.png",
+		"oAP": "/assets/projects/old/not-tiny/home01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/mini-projects-old.png": {
+	"/assets/projects/old/not-tiny/mini-projects-old.png": {
 		"ft": 32768,
 		"iS": 1860436,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/mini-projects-old.png",
+		"oAP": "/assets/projects/old/not-tiny/mini-projects-old.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/mini-projects.png": {
+	"/assets/projects/old/not-tiny/mini-projects.png": {
 		"ft": 32768,
 		"iS": 487294,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/mini-projects.png",
+		"oAP": "/assets/projects/old/not-tiny/mini-projects.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/online-resume.png": {
+	"/assets/projects/old/not-tiny/online-resume.png": {
 		"ft": 32768,
 		"iS": 55806,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/online-resume.png",
+		"oAP": "/assets/projects/old/not-tiny/online-resume.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/online-resume_old.png": {
+	"/assets/projects/old/not-tiny/online-resume_old.png": {
 		"ft": 32768,
 		"iS": 4583622,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/online-resume_old.png",
+		"oAP": "/assets/projects/old/not-tiny/online-resume_old.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/rtgphotography/contact.png": {
+	"/assets/projects/old/not-tiny/rtgphotography/contact.png": {
 		"ft": 32768,
 		"iS": 877139,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/rtgphotography/contact.png",
+		"oAP": "/assets/projects/old/not-tiny/rtgphotography/contact.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/rtgphotography/galleries.png": {
+	"/assets/projects/old/not-tiny/rtgphotography/galleries.png": {
 		"ft": 32768,
 		"iS": 4414425,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/rtgphotography/galleries.png",
+		"oAP": "/assets/projects/old/not-tiny/rtgphotography/galleries.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/rtgphotography/gallery01.png": {
+	"/assets/projects/old/not-tiny/rtgphotography/gallery01.png": {
 		"ft": 32768,
 		"iS": 6128623,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/rtgphotography/gallery01.png",
+		"oAP": "/assets/projects/old/not-tiny/rtgphotography/gallery01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/rtgphotography/home01.png": {
+	"/assets/projects/old/not-tiny/rtgphotography/home01.png": {
 		"ft": 32768,
 		"iS": 7124075,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/rtgphotography/home01.png",
+		"oAP": "/assets/projects/old/not-tiny/rtgphotography/home01.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/rtgphotography/home02.png": {
+	"/assets/projects/old/not-tiny/rtgphotography/home02.png": {
 		"ft": 32768,
 		"iS": 4961473,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/rtgphotography/home02.png",
+		"oAP": "/assets/projects/old/not-tiny/rtgphotography/home02.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/not-tiny/rtgphotography/home03.png": {
+	"/assets/projects/old/not-tiny/rtgphotography/home03.png": {
 		"ft": 32768,
 		"iS": 2931625,
 		"oA": 0,
-		"oAP": "/assets/projects/not-tiny/rtgphotography/home03.png",
+		"oAP": "/assets/projects/old/not-tiny/rtgphotography/home03.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/online-resume.png": {
+	"/assets/projects/old/online-resume.png": {
 		"ft": 32768,
 		"iS": 45045,
 		"oA": 0,
-		"oAP": "/assets/projects/online-resume.png",
+		"oAP": "/assets/projects/old/online-resume.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/old/optica.png": {
+		"ft": 32768,
+		"iS": 297394,
+		"oA": 0,
+		"oAP": "/assets/projects/old/optica.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/old/optica3x2.png": {
+		"ft": 32768,
+		"iS": 124081,
+		"oA": 0,
+		"oAP": "/assets/projects/old/optica3x2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/old/optica_full.png": {
+		"ft": 32768,
+		"iS": 781518,
+		"oA": 0,
+		"oAP": "/assets/projects/old/optica_full.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/old/rtgphotography.png": {
+		"ft": 32768,
+		"iS": 115549,
+		"oA": 0,
+		"oAP": "/assets/projects/old/rtgphotography.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/optica-ipad.png": {
+		"ft": 32768,
+		"iS": 1420901,
+		"oA": 0,
+		"oAP": "/assets/projects/optica-ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/optica-iphone8.png": {
+		"ft": 32768,
+		"iS": 906399,
+		"oA": 0,
+		"oAP": "/assets/projects/optica-iphone8.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1142,43 +1282,86 @@
 		"oA": 0,
 		"oAP": "/assets/projects/optica.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/optica3x2.png": {
-		"ft": 32768,
-		"iS": 124081,
+	"/assets/projects/optica.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/projects/optica3x2.png",
+		"oAP": "/assets/projects/optica.psd",
+		"oF": 0
+		},
+	"/assets/projects/proj-design.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/projects/proj-design.pdf",
+		"oF": 0
+		},
+	"/assets/projects/proj-design.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/projects/proj-design.psd",
+		"oF": 0
+		},
+	"/assets/projects/rtg-full.png": {
+		"ft": 32768,
+		"iS": 5231504,
+		"oA": 0,
+		"oAP": "/assets/projects/rtg-full.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/optica_full.png": {
+	"/assets/projects/rtg-ipad.png": {
 		"ft": 32768,
-		"iS": 781518,
+		"iS": 1940829,
 		"oA": 0,
-		"oAP": "/assets/projects/optica_full.png",
+		"oAP": "/assets/projects/rtg-ipad.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/rtgphotography.png": {
+	"/assets/projects/rtg-iphone8.png": {
 		"ft": 32768,
-		"iS": 115549,
+		"iS": 890817,
 		"oA": 0,
-		"oAP": "/assets/projects/rtgphotography.png",
+		"oAP": "/assets/projects/rtg-iphone8.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/assets/projects/rtg-photography.png": {
+		"ft": 32768,
+		"iS": 43952,
+		"oA": 0,
+		"oAP": "/assets/projects/rtg-photography.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/rtg-photography.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/projects/rtg-photography.psd",
+		"oF": 0
 		},
 	"/css/bootstrap.min.css": {
 		"aP": 1,
@@ -1252,17 +1435,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/js/Education-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/Education-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/js/Education.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1281,6 +1453,28 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/particles.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/projects-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/projects-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/projects.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/projects-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1360,6 +1554,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/_projects.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_projects.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
