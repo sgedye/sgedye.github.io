@@ -1,3 +1,3 @@
 # Online Resume
 
-[View Online Resume](https://sgedye.github.io) hosted on GitHub Pages.
+[View sgedye's website](https://sgedye.github.io) displaying his online resume, hosted on GitHub Pages.
