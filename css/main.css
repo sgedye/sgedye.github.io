@@ -50,14 +50,12 @@ section::after {
   height: 30px;
   clip-path: polygon(45% 0, 55% 0, 50% 30px); }
 
-h1 {
-  font-size: 4rem; }
-
 h2.section-heading {
-  font-size: 3.6rem;
+  font-size: 4rem;
+  font-weight: 600;
   color: royalblue;
   text-align: center;
-  padding: 20px 0px; }
+  padding: 40px 0 20px 0; }
 
 h3.section-subheading {
   font-size: 3.2rem;
@@ -90,14 +88,16 @@ strong, li, p, span {
 /* Small - Mobile Landscape (≥576px) */
 /* Medium - ipads (≥768px)*/
 @media (min-width: 768px) {
-  html {
-    font-size: 60%; }
   section {
     width: 80vw; }
   div.container {
     padding-right: 120px; } }
 
 /* Large - laptops (≥992px) */
+@media (min-width: 992px) {
+  html {
+    font-size: 80%; } }
+
 /* Extra large devices - large desktops (≥1200px) */
 /********************************/
 /********* HERO SECTION *********/

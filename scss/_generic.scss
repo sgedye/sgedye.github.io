@@ -57,8 +57,7 @@ section::after {
 // 	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
 // }
 
-h1 { font-size: 4rem; }
-h2.section-heading { font-size: 3.6rem; color:royalblue; text-align: center; padding: 20px 0px; }
+h2.section-heading { font-size: 4rem; font-weight: 600; color:royalblue; text-align: center; padding: 40px 0 20px 0; }
 h3.section-subheading { font-size: 3.2rem; font-family: "Futura"; color: #3aa3dd; }
 h4 { font-size: 2.8rem; font-weight: 450; }
 h5 { font-size: 2.5rem; font-weight: 400; }
@@ -84,13 +83,15 @@ strong, li, p, span { font-size: 1.8rem; }
 
 /* Medium - ipads (≥768px)*/
 @media (min-width: 768px) {
-	html { font-size: 60%; }
+	// html { font-size: 60%; }
 	section { width: 80vw; }
 	div.container { padding-right: 120px; }
 }
 
 /* Large - laptops (≥992px) */
 @media (min-width: 992px) {
+	html { font-size: 80%; }
+
 
 }
 
