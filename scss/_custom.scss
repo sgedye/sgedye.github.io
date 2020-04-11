@@ -23,7 +23,41 @@ html {
 }
 
 body { font-family: "Roboto", san-serif; width: 100vw; font-size: 18px; }
-section { padding: 30px 0px; width: 100vw; background-color: #f0f0f0; min-height: 100vh; }
+section {
+	padding: 0 0 30px 0;
+	width: 100vw;
+	min-height: 100vh;
+	.arrow-down {
+		margin: auto;
+		width: 0; 
+		height: 0; 
+		border-left: 40px solid transparent;
+		border-right: 40px solid transparent;
+		border-top: 40px solid #f0f0f0;
+	}
+}
+section:nth-of-type(2n+3) {
+	background-color: #f0f0f0;
+	.arrow-down {
+		border-top: 40px solid white;
+	}
+}
+section::after {
+	width: 100vw;
+	height: 30px;
+	clip-path: polygon(45% 0, 55% 0, 50% 30px);
+}
+
+// section:nth-of-type(2n+3) {
+// 	min-height: 120vh;
+// 	background-color: burlywood;
+// 	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+// 	padding: 10vh 0;
+// }
+// section:nth-last-of-type(2) {
+// 	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+// }
+
 h1 { font-size: 40; }
 h2.section-heading { font-size: 36; color:royalblue; text-align: center; padding: 20px 0px; }
 h3.section-subheading { font-size: 32px; font-family: "Futura"; color: #3aa3dd; }
@@ -83,21 +117,9 @@ nav.sticky-top { top: 20px; }
 	}
 }
 
-/********************************/
-/******* PROJECTS SECTION *******/
-/********************************/
-// .card { 
-// 	box-shadow: 1px 2px 8px #aaa;
-// 	&:hover { transform: translate(1px, 2px); -webkit-transform: translate(1px, 2px); box-shadow: none; }
-// 	.card-img-overlay { margin: 0px; padding: 0px;
-// 		i { position: absolute; top: 0px; right: 0px; font-size: 2em; padding: 10px !important; background-color: green; padding: 5px; }
-// 		.text-overlay { background-size: cover; position: absolute !important; top: 0px; left: 0px; padding: 10%;
-// 			.card-title { opacity: 0%; }
-// 			hr { border-width: 5px; border-color: #000000; opacity: 0%; }
-// 			.card-text { opacity: 0%; }
-// 		}
-// 	}
-// }
+
+
+
 
 
 /* Small - Mobile Landscape (≥576px) */

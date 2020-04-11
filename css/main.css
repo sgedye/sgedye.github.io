@@ -29,10 +29,26 @@ body {
   font-size: 18px; }
 
 section {
-  padding: 30px 0px;
+  padding: 0 0 30px 0;
   width: 100vw;
-  background-color: #f0f0f0;
   min-height: 100vh; }
+  section .arrow-down {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #f0f0f0; }
+
+section:nth-of-type(2n+3) {
+  background-color: #f0f0f0; }
+  section:nth-of-type(2n+3) .arrow-down {
+    border-top: 40px solid white; }
+
+section::after {
+  width: 100vw;
+  height: 30px;
+  clip-path: polygon(45% 0, 55% 0, 50% 30px); }
 
 h1 {
   font-size: 40; }
@@ -123,9 +139,6 @@ nav.sticky-top {
       font-size: 1em;
       padding-top: 5px; }
 
-/********************************/
-/******* PROJECTS SECTION *******/
-/********************************/
 /* Small - Mobile Landscape (≥576px) */
 /* Medium - ipads (≥768px)*/
 @media (min-width: 768px) {
@@ -192,6 +205,7 @@ nav.sticky-top {
 #hero {
   position: relative;
   display: flex;
+  padding: 0;
   align-items: center;
   justify-content: center; }
 
@@ -329,7 +343,8 @@ nav.sticky-top {
   max-width: 600px; }
   .education-card img {
     width: 165px;
-    height: 165px; }
+    height: 165px;
+    border-radius: 25px; }
   .education-card article {
     display: flex;
     flex-direction: column;
@@ -460,9 +475,10 @@ nav.sticky-top {
 #footer .row {
   display: flex;
   justify-content: space-around;
-  padding: 20px; }
+  padding: 40px 0; }
 
 .footer-link {
+  display: flex;
   text-decoration: none !important;
   color: white; }
   .footer-link i {
