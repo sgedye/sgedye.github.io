@@ -87,32 +87,6 @@ strong, li, p, span {
 .profile-text {
   font-size: 2.5rem; }
 
-/********************************/
-/****** ABILITIES SECTION *******/
-/********************************/
-.skill-group h3 {
-  text-align: center; }
-
-.skill-group .row {
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 40px; }
-  .skill-group .row .logo {
-    text-align: center;
-    display: inline-block;
-    margin: 0.2em;
-    width: 115px;
-    height: 115px; }
-    .skill-group .row .logo img {
-      height: 4em; }
-    .skill-group .row .logo i {
-      font-size: 4em;
-      line-height: 64px; }
-    .skill-group .row .logo strong {
-      display: block;
-      font-size: 1em;
-      padding-top: 5px; }
-
 /* Small - Mobile Landscape (≥576px) */
 /* Medium - ipads (≥768px)*/
 @media (min-width: 768px) {
@@ -124,46 +98,6 @@ strong, li, p, span {
     padding-right: 120px; } }
 
 /* Large - laptops (≥992px) */
-@media (min-width: 992px) {
-  .logo {
-    width: 120px !important; }
-    .logo strong {
-      visibility: visible !important;
-      text-align: center;
-      display: block;
-      margin-top: .5em; }
-  .fa-icons {
-    padding-bottom: 0px !important; }
-    .fa-icons div.logo {
-      width: 150px !important; }
-    .fa-icons div:nth-of-type(1) i, .fa-icons div:nth-of-type(6) i {
-      color: #ff0000; }
-    .fa-icons div:nth-of-type(2) i, .fa-icons div:nth-of-type(7) i {
-      color: #ff6600; }
-    .fa-icons div:nth-of-type(3) i, .fa-icons div:nth-of-type(8) i {
-      color: #ff3399; }
-    .fa-icons div:nth-of-type(4) i, .fa-icons div:nth-of-type(9) i {
-      color: #cc00ff; }
-    .fa-icons div:nth-of-type(5) i, .fa-icons div:nth-of-type(10) i {
-      color: #009900; }
-  .grayscale {
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out; }
-  .grayscale:hover {
-    -webkit-filter: grayscale(0);
-    -moz-filter: grayscale(0);
-    -ms-filter: grayscale(0);
-    -o-filter: grayscale(0);
-    filter: grayscale(0); } }
-
 /* Extra large devices - large desktops (≥1200px) */
 /********************************/
 /********* HERO SECTION *********/
@@ -300,13 +234,11 @@ strong, li, p, span {
 /********************************/
 /******** NAVBAR SECTION ********/
 /********************************/
-nav.navbar {
+.navbar {
   display: block;
   float: right;
   padding: 0px;
-  margin: 20px 20px 0px 0px; }
-
-nav.sticky-top {
+  margin: 20px 20px 0px 0px;
   top: 20px; }
 
 .navbar-nav a {
@@ -316,9 +248,7 @@ nav.sticky-top {
   text-align: center;
   font-weight: 600; }
 
-.navbar-nav a:hover,
-.navbar-nav a:focus,
-.navbar-nav li {
+.navbar-nav a:hover, .navbar-nav a:focus, .navbar-nav li {
   color: #999999; }
 
 .navbar-nav li:nth-of-type(6) {
@@ -381,6 +311,72 @@ nav.sticky-top {
       padding: 20px; }
       .education-list .education-card img {
         margin: 10px auto; } }
+
+/********************************/
+/****** ABILITIES SECTION *******/
+/********************************/
+.skill-group h3 {
+  text-align: center; }
+
+.skill-group .row {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px; }
+  .skill-group .row .logo {
+    text-align: center;
+    display: inline-block;
+    margin: 0.2em;
+    width: 115px;
+    height: 115px; }
+    .skill-group .row .logo img {
+      height: 4em; }
+    .skill-group .row .logo i {
+      font-size: 4em;
+      line-height: 64px; }
+    .skill-group .row .logo strong {
+      display: block;
+      font-size: 1em;
+      padding-top: 5px; }
+
+@media (min-width: 992px) {
+  .logo {
+    width: 120px !important; }
+    .logo strong {
+      visibility: visible !important;
+      text-align: center;
+      display: block;
+      margin-top: .5em; }
+  .fa-icons {
+    padding-bottom: 0px !important; }
+    .fa-icons div.logo {
+      width: 150px !important; }
+    .fa-icons div:nth-of-type(1) i, .fa-icons div:nth-of-type(6) i {
+      color: #ff0000; }
+    .fa-icons div:nth-of-type(2) i, .fa-icons div:nth-of-type(7) i {
+      color: #ff6600; }
+    .fa-icons div:nth-of-type(3) i, .fa-icons div:nth-of-type(8) i {
+      color: #ff3399; }
+    .fa-icons div:nth-of-type(4) i, .fa-icons div:nth-of-type(9) i {
+      color: #cc00ff; }
+    .fa-icons div:nth-of-type(5) i, .fa-icons div:nth-of-type(10) i {
+      color: #009900; }
+  .grayscale {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+  .grayscale:hover {
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0); } }
 
 /********************************/
 /******* PROJECTS SECTION *******/

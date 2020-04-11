@@ -1,0 +1,68 @@
+/********************************/
+/****** ABILITIES SECTION *******/
+/********************************/
+
+.skill-group {
+	h3 { text-align: center; }
+	.row {
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 40px;
+		.logo {
+			text-align: center;
+			display: inline-block;
+			margin: 0.2em;
+			width: 115px;
+			height: 115px;
+			img { height: 4em; }
+			i { font-size: 4em; line-height: 64px; }
+			strong { display: block; font-size: 1em; padding-top: 5px; }
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	//Abilities
+	.logo { 
+		width: 120px !important; 
+		strong {
+			visibility: visible !important; 
+			text-align: center;
+			display: block;
+			margin-top: .5em;
+		}
+	}
+	$color1: #ff0000;
+	$color2: #ff6600;
+	$color3: #ff3399;
+	$color4: #cc00ff;
+	$color5: #009900;
+	.fa-icons {
+		padding-bottom: 0px !important;
+		div.logo { width: 150px !important; }
+		div:nth-of-type(1), div:nth-of-type(6) { i { color: $color1; } }
+		div:nth-of-type(2), div:nth-of-type(7) { i { color: $color2; } }
+		div:nth-of-type(3), div:nth-of-type(8) { i { color: $color3; } }
+		div:nth-of-type(4), div:nth-of-type(9) { i { color: $color4; } }
+		div:nth-of-type(5), div:nth-of-type(10) { i { color: $color5; } }
+	}
+	.grayscale {
+		-webkit-filter: grayscale(100%);
+		-moz-filter: grayscale(100%);
+		-ms-filter: grayscale(100%);
+		-o-filter: grayscale(100%);
+		filter: grayscale(100%);
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+	}
+	.grayscale:hover {
+		-webkit-filter: grayscale(0);
+		-moz-filter: grayscale(0);
+		-ms-filter: grayscale(0);
+		-o-filter: grayscale(0);
+		filter: grayscale(0);
+	}
+}

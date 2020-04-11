@@ -2,30 +2,27 @@
 /******** NAVBAR SECTION ********/
 /********************************/
 
-$navMargTop: 20px;
-
-nav.navbar {
+.navbar {
 	display: block;
 	float: right;
 	padding:0px;
-	margin: $navMargTop 20px 0px 0px;
+	margin: 20px 20px 0px 0px;
+	top: 20px;
 }
-nav.sticky-top { top: 20px; }
-
-.navbar-nav a {
-	height: 60px;
-	width: 120px;
-	padding-top: 15px;
-	text-align: center;
-	font-weight: 600;
-}
-.navbar-nav a:hover, 
-.navbar-nav a:focus, 
-.navbar-nav li {
-	color: #999999;
-}
-.navbar-nav li:nth-of-type(6) {
-	margin-top: 10px;
-	border-radius: 0.25em;
-	height: 85px;
+.navbar-nav {
+	a {
+		height: 60px;
+		width: 120px;
+		padding-top: 15px;
+		text-align: center;
+		font-weight: 600;
+	}
+	a:hover, a:focus, li {
+		color: #999999;
+	}
+	li:nth-of-type(6) {
+		margin-top: 10px;
+		border-radius: 0.25em;
+		height: 85px;
+	}
 }
