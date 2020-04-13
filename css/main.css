@@ -237,6 +237,13 @@ strong, li, p, span {
 /********************************/
 /******** NAVBAR SECTION ********/
 /********************************/
+.navbar-toggler {
+  position: absolute;
+  right: 0; }
+
+.navbar-collapse {
+  margin-top: 34px; }
+
 .navbar {
   display: block;
   float: right;
