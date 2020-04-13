@@ -18,16 +18,21 @@
 }
 
 
-/* Large - laptops (≥992px) */
+/* Large - ipads / laptops (≥600px) */
 @media screen and (min-width: 600px) {
 	.footer-link {
-		i {
-			-webkit-transform: scale(1.1);
-			-moz-transfrom: scale(1.1);
-			-ms-transfrom: scale(1.1);
-			-o-transform: scale(1.1);
-			transform: scale(1.1);
-		}
+		i, span { transition: all 800ms ease-in-out; }
 		span { display: inline; font-size: 2em; padding-left: 10px;}
+	}
+	.footer-link:hover {
+		i {
+			text-shadow: 0px 0px 1px white, 0 0 5px #111;
+			-webkit-transform: rotate(360deg);
+			-moz-transfrom: rotate(360deg);
+			-ms-transfrom: rotate(360deg);
+			-o-transform: rotate(360deg);
+			transform: rotate(360deg);		
+		}
+		span { text-shadow: 0px 0px 1px white, 0 0 5px #111; }
 	}
 }

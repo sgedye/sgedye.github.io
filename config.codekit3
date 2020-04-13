@@ -1446,6 +1446,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/Education-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/Education-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/Education.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1464,6 +1475,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/particles.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/projects-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/projects-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

@@ -39,7 +39,7 @@
 	position: relative;
 	text-align: center;
 	width: 100%;
-	h3 { padding: 20px 0; }
+	h3 { padding: 20px 0; font-size: 2.4rem; }
 	button {
 		position: absolute;
 		left: 25%;
@@ -60,13 +60,20 @@
 		box-shadow: none;
     padding: 20px 10px;
 		display: grid;
+		align-items: center;
 		grid-template-columns: 1fr auto;
 		grid-template-areas: "logo description";
 		.project-logo { grid-area: logo; }
 		.project-info {
 			grid-area: description;
 			padding: 0 20px;
-			button { bottom: 30px; padding: 5px; }
+			h3 { padding-top: 0; }
+			button {
+				position: static;
+				display: block;
+				margin: 30px auto 0 auto;
+				padding: 5px;
+			}
 		}
 	}
 	.project:hover {

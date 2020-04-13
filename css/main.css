@@ -53,7 +53,10 @@ section::after {
 h2.section-heading {
   font-size: 4rem;
   font-weight: 600;
-  color: royalblue;
+  background: linear-gradient(to left, #0033a8, #c20588);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
   padding: 40px 0 20px 0; }
 
@@ -96,7 +99,7 @@ strong, li, p, span {
 /* Large - laptops (≥992px) */
 @media (min-width: 992px) {
   html {
-    font-size: 80%; } }
+    font-size: 75%; } }
 
 /* Extra large devices - large desktops (≥1200px) */
 /********************************/
@@ -246,7 +249,8 @@ strong, li, p, span {
   width: 120px;
   padding-top: 15px;
   text-align: center;
-  font-weight: 600; }
+  font-weight: 600;
+  font-size: 1.6rem; }
 
 .navbar-nav a:hover, .navbar-nav a:focus, .navbar-nav li {
   color: #999999; }
@@ -255,6 +259,9 @@ strong, li, p, span {
   margin-top: 10px;
   border-radius: 0.25em;
   height: 85px; }
+
+.navbar-nav span {
+  font-size: 1.6rem; }
 
 /********************************/
 /****** EDUCATION SECTION *******/
@@ -280,10 +287,13 @@ strong, li, p, span {
       margin: 0;
       width: 100%; }
     .education-card article .title {
-      font-size: 1.7em; }
+      font-size: 3rem; }
     .education-card article .subTitle {
-      font-size: 1.4em;
+      font-size: 2.4rem;
       padding: 10px 0; }
+      .education-card article .subTitle ul, .education-card article .subTitle li {
+        list-style-type: none;
+        font-size: 2.4rem; }
     .education-card article .school {
       display: none; }
 
@@ -291,9 +301,10 @@ strong, li, p, span {
   .education-card {
     display: grid;
     grid-template-columns: 165px auto;
+    align-items: center;
     padding: 20px; }
     .education-card article {
-      margin-left: 15px;
+      margin-left: 20px;
       text-align: left;
       padding: 0; }
       .education-card article .school {
@@ -305,7 +316,8 @@ strong, li, p, span {
     display: flex;
     flex-wrap: wrap; }
     .education-list .education-card {
-      display: flex;
+      display: grid;
+      grid-template-columns: 200px auto;
       align-items: center;
       width: 50%;
       padding: 20px; }
@@ -418,7 +430,8 @@ strong, li, p, span {
   text-align: center;
   width: 100%; }
   .project-info h3 {
-    padding: 20px 0; }
+    padding: 20px 0;
+    font-size: 2.4rem; }
   .project-info button {
     position: absolute;
     left: 25%;
@@ -437,6 +450,7 @@ strong, li, p, span {
     box-shadow: none;
     padding: 20px 10px;
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr auto;
     grid-template-areas: "logo description"; }
     .project .project-logo {
@@ -444,8 +458,12 @@ strong, li, p, span {
     .project .project-info {
       grid-area: description;
       padding: 0 20px; }
+      .project .project-info h3 {
+        padding-top: 0; }
       .project .project-info button {
-        bottom: 30px;
+        position: static;
+        display: block;
+        margin: 30px auto 0 auto;
         padding: 5px; }
   .project:hover {
     transform: translate(-5px, -4px);
@@ -478,18 +496,23 @@ strong, li, p, span {
   .footer-link span {
     display: none; }
 
-/* Large - laptops (≥992px) */
+/* Large - ipads / laptops (≥600px) */
 @media screen and (min-width: 600px) {
-  .footer-link i {
-    -webkit-transform: scale(1.1);
-    -moz-transfrom: scale(1.1);
-    -ms-transfrom: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1); }
+  .footer-link i, .footer-link span {
+    transition: all 800ms ease-in-out; }
   .footer-link span {
     display: inline;
     font-size: 2em;
-    padding-left: 10px; } }
+    padding-left: 10px; }
+  .footer-link:hover i {
+    text-shadow: 0px 0px 1px white, 0 0 5px #111;
+    -webkit-transform: rotate(360deg);
+    -moz-transfrom: rotate(360deg);
+    -ms-transfrom: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+  .footer-link:hover span {
+    text-shadow: 0px 0px 1px white, 0 0 5px #111; } }
 
 /*!
  * animate.css -https://daneden.github.io/animate.css/

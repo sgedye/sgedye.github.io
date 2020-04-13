@@ -23,8 +23,8 @@ const educationData = [
   {
     id: "fCC",
     imgAddr: "fcc-small.png",
-    title: "Certified something",
-    subTitle: "Web Dev",
+    title: "Front End Development",
+    subTitle: "<ul><li>Responsive Web</li><li>Javascript Algorithms</li></ul>",
     school: "Free Code Camp"
   }
 ]
@@ -43,7 +43,6 @@ educationData.map(item => {
     <article>
       <h2 class="title">${item.title}</h2>
       <h3 class="subTitle">${item.subTitle}</h3>
-      <h3 class="school">${item.school}</h3>
     </article>
 	`
   div.appendChild(cardDiv)

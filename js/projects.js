@@ -23,7 +23,7 @@ const projectData = [
     url: "https://sgedye.github.io/mini-projects/",
     imgSml: "mini-ipad.png",
     imgBig: "mini-projects.png",
-    blurb: "Various projects undertaken for interest, learning and professional development",
+    blurb: "Various projects undertaken for personal interest, continuous learning and professional development",
     languages: "React, JavaScript, jQuery, Syled-Components, Bootstrap, HTML, CSS, SCSS, Photoshop"
   }
 ]

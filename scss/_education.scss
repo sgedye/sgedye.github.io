@@ -21,8 +21,12 @@
 		justify-items: center;
 		padding: 20px 0;
 		.title, .subTitle, .school { margin: 0; width: 100%; }
-		.title { font-size: 1.7em; }
-		.subTitle { font-size: 1.4em; padding: 10px 0; }
+		.title { font-size: 3rem; }
+		.subTitle {
+			font-size: 2.4rem;
+			padding: 10px 0;
+			ul, li { list-style-type: none; font-size: 2.4rem; }
+		}
 		.school { display: none; }
 	}
 }
@@ -31,9 +35,10 @@
 	.education-card {
 		display: grid;
 		grid-template-columns: 165px auto;
+		align-items: center;
 		padding: 20px;
 		article {
-			margin-left: 15px;
+			margin-left: 20px;
 			text-align: left;
 			padding: 0;
 			.school { display: block; font-size: 1.3em; }
@@ -46,11 +51,17 @@
 		display: flex;
 		flex-wrap: wrap;
 		.education-card {
-			display: flex;
+			display: grid;
+			grid-template-columns: 200px auto;
 			align-items: center;
 			width: 50%;
 			padding: 20px;
 			img { margin: 10px auto; }
 		}
 	}
+	// .education-card > article {
+	// 	.subTitle {
+	// 		ul, li { list-style-type: unset; margin-left: 15px; }
+	// 	}
+	// }
 }
