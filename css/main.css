@@ -252,7 +252,8 @@ strong, li, p, span {
   top: 20px; }
 
 .navbar-nav {
-  position: fixed; }
+  position: absolute;
+  right: 0; }
   .navbar-nav a {
     height: 60px;
     width: 120px;
@@ -268,6 +269,12 @@ strong, li, p, span {
     height: 85px; }
   .navbar-nav span {
     font-size: 1.6rem; }
+
+@media screen and (min-width: 992px) {
+  .navbar-nav {
+    position: static; }
+  .navbar-collapse {
+    margin-top: 0; } }
 
 /********************************/
 /****** EDUCATION SECTION *******/
