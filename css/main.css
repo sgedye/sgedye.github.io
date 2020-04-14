@@ -251,24 +251,23 @@ strong, li, p, span {
   margin: 20px 20px 0px 0px;
   top: 20px; }
 
-.navbar-nav a {
-  height: 60px;
-  width: 120px;
-  padding-top: 15px;
-  text-align: center;
-  font-weight: 600;
-  font-size: 1.6rem; }
-
-.navbar-nav a:hover, .navbar-nav a:focus, .navbar-nav li {
-  color: #999999; }
-
-.navbar-nav li:nth-of-type(6) {
-  margin-top: 10px;
-  border-radius: 0.25em;
-  height: 85px; }
-
-.navbar-nav span {
-  font-size: 1.6rem; }
+.navbar-nav {
+  position: fixed; }
+  .navbar-nav a {
+    height: 60px;
+    width: 120px;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6rem; }
+  .navbar-nav a:hover, .navbar-nav a:focus, .navbar-nav li {
+    color: #999999; }
+  .navbar-nav li:nth-of-type(6) {
+    margin-top: 10px;
+    border-radius: 0.25em;
+    height: 85px; }
+  .navbar-nav span {
+    font-size: 1.6rem; }
 
 /********************************/
 /****** EDUCATION SECTION *******/
