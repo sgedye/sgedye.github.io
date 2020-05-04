@@ -9,9 +9,10 @@
 	display: block;
 	text-align: center;
 	max-width: 600px;
+	margin: auto;
 	img {
-		width: 165px;
-		height: 165px;
+		width: 135px;
+		height: 135px;
 		border-radius: 25px;
 	}
 	article {
@@ -20,42 +21,50 @@
 		align-items: center;
 		justify-items: center;
 		padding: 20px 0;
-		.title, .subTitle, .school { margin: 0; width: 100%; }
-		.title { font-size: 3rem; }
+		.title {
+			font-size: 3rem;
+			margin: 0;
+			width: 100%;
+		}
 		.subTitle {
 			font-size: 2.4rem;
 			padding: 10px 0;
+			margin: 0;
+			width: 100%;
 			ul, li { list-style-type: none; font-size: 2.4rem; }
 		}
-		.school { display: none; }
 	}
 }
 
 @media screen and (min-width: 600px) {
 	.education-card {
 		display: grid;
-		grid-template-columns: 165px auto;
+		grid-template-columns: 135px auto;
 		align-items: center;
-		padding: 20px;
+		padding: 20px 20px 20px 50px;
 		article {
 			margin-left: 20px;
 			text-align: left;
 			padding: 0;
-			.school { display: block; font-size: 1.3em; }
 		}
 	}
 }
-
+@media screen and (min-width: 768px) {
+	.education-card {
+		grid-template-columns: 150px auto;
+	}
+}
 @media screen and (min-width: 1200px) {
 	.education-list {
 		display: flex;
 		flex-wrap: wrap;
 		.education-card {
-			display: grid;
-			grid-template-columns: 200px auto;
-			align-items: center;
 			width: 50%;
 			padding: 20px;
+			article {
+				.title { font-size: 30px; }
+				.subTitle, .subTitle li { font-size: 24px; }
+			}
 			img { margin: 10px auto; }
 		}
 	}

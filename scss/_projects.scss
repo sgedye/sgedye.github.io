@@ -83,7 +83,7 @@
 		transform: translate(-5px, -4px);
 		box-shadow: 5px 4px 12px 0px var(--off-black);
 	}
-	.project:nth-of-type(2) {
+	.project:nth-of-type(2) > a {
 		grid-template-areas: "description logo";
 		margin: 50px 0;
 	}
@@ -97,6 +97,7 @@
 	.project-btn {
 		position: static;
 		margin: 30px auto 0 auto;
+		font-size: 1.2em;
 		padding: 5px;
 	}
 	.project-btn::before {
@@ -108,9 +109,9 @@
 		width: 0;
 		height: 0;
 		background: linear-gradient(to left, #0033a8, #c20588);
-		opacity: 0.6;
 		border-radius: 20px;
 		transition: 800ms;
+		opacity: 0;
 		z-index: 3;
 	}
 
@@ -120,5 +121,6 @@
 		height: 100%;
 		left: 0;
 		top: 0;
+		opacity: 0.6;
 	}
 }

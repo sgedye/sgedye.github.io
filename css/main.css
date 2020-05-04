@@ -95,7 +95,7 @@ strong, li, p, span {
   section {
     width: 80vw; }
   div.container {
-    padding-right: 120px; } }
+    padding-right: 60px; } }
 
 /* Large - laptops (≥992px) */
 @media (min-width: 992px) {
@@ -286,10 +286,11 @@ strong, li, p, span {
 .education-card {
   display: block;
   text-align: center;
-  max-width: 600px; }
+  max-width: 600px;
+  margin: auto; }
   .education-card img {
-    width: 165px;
-    height: 165px;
+    width: 135px;
+    height: 135px;
     border-radius: 25px; }
   .education-card article {
     display: flex;
@@ -297,44 +298,45 @@ strong, li, p, span {
     align-items: center;
     justify-items: center;
     padding: 20px 0; }
-    .education-card article .title, .education-card article .subTitle, .education-card article .school {
+    .education-card article .title {
+      font-size: 3rem;
       margin: 0;
       width: 100%; }
-    .education-card article .title {
-      font-size: 3rem; }
     .education-card article .subTitle {
       font-size: 2.4rem;
-      padding: 10px 0; }
+      padding: 10px 0;
+      margin: 0;
+      width: 100%; }
       .education-card article .subTitle ul, .education-card article .subTitle li {
         list-style-type: none;
         font-size: 2.4rem; }
-    .education-card article .school {
-      display: none; }
 
 @media screen and (min-width: 600px) {
   .education-card {
     display: grid;
-    grid-template-columns: 165px auto;
+    grid-template-columns: 135px auto;
     align-items: center;
-    padding: 20px; }
+    padding: 20px 20px 20px 50px; }
     .education-card article {
       margin-left: 20px;
       text-align: left;
-      padding: 0; }
-      .education-card article .school {
-        display: block;
-        font-size: 1.3em; } }
+      padding: 0; } }
+
+@media screen and (min-width: 768px) {
+  .education-card {
+    grid-template-columns: 150px auto; } }
 
 @media screen and (min-width: 1200px) {
   .education-list {
     display: flex;
     flex-wrap: wrap; }
     .education-list .education-card {
-      display: grid;
-      grid-template-columns: 200px auto;
-      align-items: center;
       width: 50%;
       padding: 20px; }
+      .education-list .education-card article .title {
+        font-size: 30px; }
+      .education-list .education-card article .subTitle, .education-list .education-card article .subTitle li {
+        font-size: 24px; }
       .education-list .education-card img {
         margin: 10px auto; } }
 
@@ -481,7 +483,7 @@ strong, li, p, span {
   .project:hover > a {
     transform: translate(-5px, -4px);
     box-shadow: 5px 4px 12px 0px var(--off-black); }
-  .project:nth-of-type(2) {
+  .project:nth-of-type(2) > a {
     grid-template-areas: "description logo";
     margin: 50px 0; }
   .project:nth-of-type(2):hover > a {
@@ -490,6 +492,7 @@ strong, li, p, span {
   .project-btn {
     position: static;
     margin: 30px auto 0 auto;
+    font-size: 1.2em;
     padding: 5px; }
   .project-btn::before {
     content: '';
@@ -500,16 +503,17 @@ strong, li, p, span {
     width: 0;
     height: 0;
     background: linear-gradient(to left, #0033a8, #c20588);
-    opacity: 0.6;
     border-radius: 20px;
     transition: 800ms;
+    opacity: 0;
     z-index: 3; }
   .project-btn:hover::before {
     content: '';
     width: 100%;
     height: 100%;
     left: 0;
-    top: 0; } }
+    top: 0;
+    opacity: 0.6; } }
 
 /********************************/
 /******** FOOTER SECTION ********/
