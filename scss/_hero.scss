@@ -33,11 +33,11 @@
 }
 @-webkit-keyframes fill-in {
 	0% { fill: transparent; }
-	100% { fill: var(--title-black); }
+	100% { fill: var(--off-black); }
 }
 @keyframes fill-in {
 	0% { fill: transparent; }
-	100% { fill: var(--title-black); }
+	100% { fill: var(--off-black); }
 }
 // drawMe animation
 @-webkit-keyframes drawMe {
@@ -79,7 +79,7 @@
 	display: block;
 	bottom: 50px;
 	padding: 25px 10px;
-	color: var(--title-black);
+	color: var(--off-black);
 	animation: up-down 2000ms ease-in-out infinite;
 	-webkit-animation: up-down 2000ms ease-in-out infinite;
 }

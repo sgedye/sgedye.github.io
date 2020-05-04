@@ -56,14 +56,15 @@ projectData.map(item => {
   } else {
     projectDiv.classList.add('project')
     projectDiv.innerHTML = `
-      <img class="project-logo" src=${src} width="auto" height="350" alt=${alt} />
-      <div class="project-info">
-        <h3>${item.title}</h3>
-        <p>${item.blurb}</p>
-        <code>${item.languages}</code>
-        <button>View Website</button>
-        <a class="stretched-link" href=${item.url} target="_blank" rel="noopener noreferrer"></a>
-      </div>
+      <a href=${item.url} target="_blank" rel="noopener noreferrer">
+        <img class="project-logo" src=${src} width="auto" height="350" alt=${alt} />
+        <div class="project-info">
+          <h3>${item.title}</h3>
+          <p>${item.blurb}</p>
+          <code>${item.languages}</code>
+          <object><button class="project-btn">View Website</button></object>
+        </div>
+      </a>
     `
   }
   projectList.appendChild(projectDiv)

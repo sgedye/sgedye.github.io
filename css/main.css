@@ -9,7 +9,8 @@ html, body, ul, ol {
 /********* ALL SECTIONS *********/
 /********************************/
 :root {
-  --title-black: #111111;
+  --off-black: #111111;
+  --footer-bg: #444444;
   --off-white: #f0f0f0; }
 
 html {
@@ -43,7 +44,7 @@ section {
 section:nth-of-type(2n+3) {
   background-color: var(--off-white); }
   section:nth-of-type(2n+3) .arrow-down {
-    border-top: 40px solid white; }
+    border-top: 40px solid #ffffff; }
 
 section::after {
   width: 100vw;
@@ -138,13 +139,13 @@ strong, li, p, span {
   0% {
     fill: transparent; }
   100% {
-    fill: var(--title-black); } }
+    fill: var(--off-black); } }
 
 @keyframes fill-in {
   0% {
     fill: transparent; }
   100% {
-    fill: var(--title-black); } }
+    fill: var(--off-black); } }
 
 @-webkit-keyframes drawMe {
   to {
@@ -187,7 +188,7 @@ strong, li, p, span {
   display: block;
   bottom: 50px;
   padding: 25px 10px;
-  color: var(--title-black);
+  color: var(--off-black);
   animation: up-down 2000ms ease-in-out infinite;
   -webkit-animation: up-down 2000ms ease-in-out infinite; }
 
@@ -431,7 +432,7 @@ strong, li, p, span {
   display: block;
   padding: 10px;
   font-size: 12pt;
-  color: white;
+  color: var(--off-white);
   text-align: center;
   background-color: #835A99; }
 
@@ -451,14 +452,16 @@ strong, li, p, span {
     right: 25%;
     width: 50%;
     bottom: 20px;
-    border: 2px solid #111;
+    border: 2px solid var(--off-black);
     border-radius: 20px;
     padding: 12px; }
 
 /* IPAD | DESKTOP screens */
 @media screen and (min-width: 768px) {
-  .project {
+  .project > a {
     margin: 20px 0;
+    text-decoration: none;
+    color: var(--off-black);
     transition: all 800ms;
     box-shadow: none;
     padding: 20px 10px;
@@ -466,33 +469,56 @@ strong, li, p, span {
     align-items: center;
     grid-template-columns: 1fr auto;
     grid-template-areas: "logo description"; }
-    .project .project-logo {
+    .project > a .project-logo {
       grid-area: logo; }
-    .project .project-info {
+    .project > a .project-info {
       grid-area: description;
       padding: 0 20px; }
-      .project .project-info h3 {
+      .project > a .project-info h3 {
         padding-top: 0; }
-      .project .project-info button {
+      .project > a .project-info button {
         position: static;
         display: block;
         margin: 30px auto 0 auto;
         padding: 5px; }
-  .project:hover {
+  .project:hover > a {
     transform: translate(-5px, -4px);
-    box-shadow: 5px 4px 12px 0px black; }
+    box-shadow: 5px 4px 12px 0px var(--off-black); }
   .project:nth-of-type(2) {
     grid-template-areas: "description logo";
     margin: 50px 0; }
-  .project:nth-of-type(2):hover {
+  .project:nth-of-type(2):hover > a {
     transform: translate(5px, -4px);
-    box-shadow: -5px 4px 12px 0px black; } }
+    box-shadow: -5px 4px 12px 0px var(--off-black); }
+  .project-btn {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    background: white;
+    transition: 1200ms;
+    z-index: -1; }
+  .project-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to left, #0033a8, #c20588);
+    transition: 1200ms;
+    z-index: 0; }
+  .project-btn:hover {
+    width: 100%;
+    left: 0;
+    color: var(--off-white); } }
 
 /********************************/
 /******** FOOTER SECTION ********/
 /********************************/
 #footer {
-  background-color: #444; }
+  background-color: var(--footer-bg); }
 
 #footer .row {
   display: flex;
@@ -502,7 +528,7 @@ strong, li, p, span {
 .footer-link {
   display: flex;
   text-decoration: none !important;
-  color: white; }
+  color: var(--off-white); }
   .footer-link i {
     font-size: 3em;
     font-weight: 400; }
@@ -518,14 +544,14 @@ strong, li, p, span {
     font-size: 2em;
     padding-left: 10px; }
   .footer-link:hover i {
-    text-shadow: 0px 0px 1px white, 0 0 5px #111;
+    text-shadow: 0px 0px 1px var(--off-white), 0 0 5px var(--off-black);
     -webkit-transform: rotate(360deg);
     -moz-transfrom: rotate(360deg);
     -ms-transfrom: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg); }
   .footer-link:hover span {
-    text-shadow: 0px 0px 1px white, 0 0 5px #111; } }
+    text-shadow: 0px 0px 1px var(--off-white), 0 0 5px var(--off-black); } }
 
 /*!
  * animate.css -https://daneden.github.io/animate.css/

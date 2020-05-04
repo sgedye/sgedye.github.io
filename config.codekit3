@@ -1405,6 +1405,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/hero.png": {
+		"ft": 32768,
+		"iS": 182451,
+		"oA": 0,
+		"oAP": "/hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1431,6 +1442,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/custom-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/custom-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1684,7 +1706,7 @@
 "projectAttributes": {
 	"creationDate": 608052322.63279796,
 	"displayValue": "sgedye.github.io",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
 	"iconImageWasSetByUser": 0
 	},
