@@ -473,14 +473,11 @@ strong, li, p, span {
       grid-area: logo; }
     .project > a .project-info {
       grid-area: description;
+      height: 325px;
       padding: 0 20px; }
       .project > a .project-info h3 {
-        padding-top: 0; }
-      .project > a .project-info button {
-        position: static;
-        display: block;
-        margin: 30px auto 0 auto;
-        padding: 5px; }
+        padding-top: 0;
+        text-shadow: 1px 1px #aaa; }
   .project:hover > a {
     transform: translate(-5px, -4px);
     box-shadow: 5px 4px 12px 0px var(--off-black); }
@@ -491,28 +488,28 @@ strong, li, p, span {
     transform: translate(5px, -4px);
     box-shadow: -5px 4px 12px 0px var(--off-black); }
   .project-btn {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 0;
-    height: 100%;
-    background: white;
-    transition: 1200ms;
-    z-index: -1; }
+    position: static;
+    margin: 30px auto 0 auto;
+    padding: 5px; }
   .project-btn::before {
     content: '';
     position: absolute;
-    top: 0;
+    margin: 0;
+    top: 50%;
     left: 50%;
     width: 0;
-    height: 100%;
+    height: 0;
     background: linear-gradient(to left, #0033a8, #c20588);
-    transition: 1200ms;
-    z-index: 0; }
-  .project-btn:hover {
+    opacity: 0.6;
+    border-radius: 20px;
+    transition: 800ms;
+    z-index: 3; }
+  .project-btn:hover::before {
+    content: '';
     width: 100%;
+    height: 100%;
     left: 0;
-    color: var(--off-white); } }
+    top: 0; } }
 
 /********************************/
 /******** FOOTER SECTION ********/
