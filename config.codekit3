@@ -962,12 +962,12 @@
 		},
 	"/assets/projects/mini-ipad.png": {
 		"ft": 32768,
-		"iS": 508164,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "/assets/projects/mini-ipad.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1028,6 +1028,17 @@
 		"iS": 39228,
 		"oA": 0,
 		"oAP": "/assets/projects/old/gymnastics.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/projects/old/mini-ipad.png": {
+		"ft": 32768,
+		"iS": 508164,
+		"oA": 0,
+		"oAP": "/assets/projects/old/mini-ipad.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1221,6 +1232,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/projects/old/optica-ipad.png": {
+		"ft": 32768,
+		"iS": 1420901,
+		"oA": 0,
+		"oAP": "/assets/projects/old/optica-ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/projects/old/optica.png": {
 		"ft": 32768,
 		"iS": 297394,
@@ -1254,6 +1276,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/projects/old/rtg-ipad.png": {
+		"ft": 32768,
+		"iS": 1940829,
+		"oA": 0,
+		"oAP": "/assets/projects/old/rtg-ipad.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/projects/old/rtgphotography.png": {
 		"ft": 32768,
 		"iS": 115549,
@@ -1278,12 +1311,12 @@
 		},
 	"/assets/projects/optica-ipad.png": {
 		"ft": 32768,
-		"iS": 1420901,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "/assets/projects/optica-ipad.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1346,12 +1379,12 @@
 		},
 	"/assets/projects/rtg-ipad.png": {
 		"ft": 32768,
-		"iS": 1940829,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "/assets/projects/rtg-ipad.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
