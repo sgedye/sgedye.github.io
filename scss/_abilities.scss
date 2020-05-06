@@ -3,7 +3,11 @@
 /********************************/
 
 .skill-group {
-	h3 { text-align: center; }
+	h3 {
+		text-align: center;
+		font-size: 2rem;
+		font-weight: 600;
+	}
 	.row {
 		justify-content: center;
 		align-items: center;
@@ -22,7 +26,6 @@
 }
 
 @media (min-width: 992px) {
-	//Abilities
 	.logo { 
 		width: 120px !important; 
 		strong {
@@ -52,11 +55,11 @@
 		-ms-filter: grayscale(100%);
 		-o-filter: grayscale(100%);
 		filter: grayscale(100%);
-		-webkit-transition: all .3s ease-in-out;
-		-moz-transition: all .3s ease-in-out;
-		-ms-transition: all .3s ease-in-out;
-		-o-transition: all .3s ease-in-out;
-		transition: all .3s ease-in-out;
+		-webkit-transition: all 500ms ease-in-out;
+		-moz-transition: all 500ms ease-in-out;
+		-ms-transition: all 500ms ease-in-out;
+		-o-transition: all 500ms ease-in-out;
+		transition: all 500ms ease-in-out;
 	}
 	.grayscale:hover {
 		-webkit-filter: grayscale(0);

@@ -548,6 +548,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/icons/_Not Tiny/typescript.png": {
+		"ft": 32768,
+		"iS": 3548,
+		"oA": 0,
+		"oAP": "/assets/icons/_Not Tiny/typescript.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/icons/_Not Tiny/uikit.png": {
 		"ft": 32768,
 		"iS": 5007,
@@ -673,6 +684,17 @@
 		"oA": 0,
 		"oAP": "/assets/icons/_Not Tiny/zGitHub-Mark/Vector/GitHub-Mark.eps",
 		"oF": 0
+		},
+	"/assets/icons/_Not Tiny/zoom.png": {
+		"ft": 32768,
+		"iS": 37056,
+		"oA": 0,
+		"oAP": "/assets/icons/_Not Tiny/zoom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/assets/icons/asana.png": {
 		"ft": 32768,
@@ -916,6 +938,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/icons/typescript.png": {
+		"ft": 32768,
+		"iS": 3306,
+		"oA": 0,
+		"oAP": "/assets/icons/typescript.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/icons/uikit.png": {
 		"ft": 32768,
 		"iS": 1710,
@@ -954,6 +987,17 @@
 		"iS": 5777,
 		"oA": 0,
 		"oAP": "/assets/icons/wireframe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icons/zoom.png": {
+		"ft": 32768,
+		"iS": 4329,
+		"oA": 0,
+		"oAP": "/assets/icons/zoom.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
