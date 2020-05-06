@@ -10,6 +10,9 @@
  	height: 350px;
  	z-index: 1;
 }
+.flip-container:nth-of-type(2) {
+	margin: 40px auto;
+}
 .flip-card {
 	width: 100%;
 	height: 100%;
