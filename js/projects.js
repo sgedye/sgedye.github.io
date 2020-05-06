@@ -4,7 +4,7 @@ const projectData = [
     title: "Optica Medica",
     url: "https://sgedye.github.io/optica/",
     imgSml: "optica-ipad.png",
-    imgBig: "optica.jpf",
+    imgBig: "optica.png",
     blurb: "A complete revamp of an old website, which was unresponsive and unreadable on mobile devices.",
     languages: "Photoshop | JavaScript | HTML | CSS | SCSS"
   },
@@ -13,7 +13,7 @@ const projectData = [
     title: "RTG Photography",
     url: "https://www.rtgphotography.com.au/",
     imgSml: "rtg-ipad.png",
-    imgBig: "rtg-photography.jpf",
+    imgBig: "rtg-photography.png",
     blurb: "A bespoke, responsive website designed and created for a local travel photographer",
     languages: "Photoshop | Carva | UI Kit | PHP | HTML | CSS | cPanel | Google Analytics"
   },
@@ -22,7 +22,7 @@ const projectData = [
     title: "Mini Projects",
     url: "https://sgedye.github.io/mini-projects/",
     imgSml: "mini-ipad.png",
-    imgBig: "mini-projects.jpf",
+    imgBig: "mini-projects.png",
     blurb: "Various projects undertaken for personal interest, continuous learning and professional development",
     languages: "React, JavaScript, jQuery, Syled-Components, Bootstrap, HTML, CSS, SCSS, Photoshop"
   }
