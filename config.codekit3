@@ -9,6 +9,50 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/assets/codewars-blk.png": {
+		"ft": 32768,
+		"iS": 27690,
+		"oA": 0,
+		"oAP": "/assets/codewars-blk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/codewars-blue.png": {
+		"ft": 32768,
+		"iS": 19562,
+		"oA": 0,
+		"oAP": "/assets/codewars-blue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/codewars-red.png": {
+		"ft": 32768,
+		"iS": 28579,
+		"oA": 0,
+		"oAP": "/assets/codewars-red.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/codewars.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/assets/codewars.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/education/curtin.png": {
 		"ft": 32768,
 		"iS": 56539,
