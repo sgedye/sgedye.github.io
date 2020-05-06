@@ -982,6 +982,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/projects/mini-projects.jpf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/projects/mini-projects.jpf",
+		"oF": 0
+		},
 	"/assets/projects/mini-projects.png": {
 		"ft": 32768,
 		"iS": 104473,
@@ -992,14 +1000,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"/assets/projects/mini-projects.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/projects/mini-projects.psd",
-		"oF": 0
 		},
 	"/assets/projects/old/cuba.png": {
 		"ft": 32768,
@@ -1055,6 +1055,14 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/assets/projects/old/mini-projects.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/projects/old/mini-projects.psd",
+		"oF": 0
 		},
 	"/assets/projects/old/not-tiny/cuba/home.png": {
 		"ft": 32768,
@@ -1287,6 +1295,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/projects/old/rtg-photography.png": {
+		"ft": 32768,
+		"iS": 43952,
+		"oA": 0,
+		"oAP": "/assets/projects/old/rtg-photography.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/projects/old/rtgphotography.png": {
 		"ft": 32768,
 		"iS": 115549,
@@ -1331,16 +1350,13 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/optica.png": {
-		"ft": 32768,
-		"iS": 297394,
+	"/assets/projects/optica.jpf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/projects/optica.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"oAP": "/assets/projects/optica.jpf",
+		"oF": 0
 		},
 	"/assets/projects/optica.psd": {
 		"cB": 0,
@@ -1399,16 +1415,13 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/projects/rtg-photography.png": {
-		"ft": 32768,
-		"iS": 43952,
+	"/assets/projects/rtg-photography.jpf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/assets/projects/rtg-photography.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"oAP": "/assets/projects/rtg-photography.jpf",
+		"oF": 0
 		},
 	"/assets/projects/rtg-photography.psd": {
 		"cB": 0,
