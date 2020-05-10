@@ -1655,6 +1655,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/lighthouse - desktop.png": {
+		"ft": 32768,
+		"iS": 54724,
+		"oA": 0,
+		"oAP": "/lighthouse - desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/lighthouse - mobile.png": {
+		"ft": 32768,
+		"iS": 55778,
+		"oA": 0,
+		"oAP": "/lighthouse - mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1793,7 +1815,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/scss/animate.css",
 		"oF": 0,
 		"oS": 0,
