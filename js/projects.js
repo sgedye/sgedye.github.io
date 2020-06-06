@@ -2,7 +2,7 @@ const projectData = [
   {
     id: "proj-optica",
     title: "Optica Medica",
-    url: "https://sgedye.github.io/optica/",
+    url: "https://www.opticamedicabuga.com/",
     imgSml: "optica-ipad.png",
     imgBig: "optica.png",
     blurb: "A complete revamp of an old website, which was unresponsive and unreadable on mobile devices.",
