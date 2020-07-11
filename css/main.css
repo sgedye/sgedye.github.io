@@ -264,7 +264,11 @@ strong, li, p, span {
     font-size: 1.6rem; }
   .navbar-nav a:hover, .navbar-nav a:focus, .navbar-nav li {
     color: #999999; }
-  .navbar-nav li:nth-of-type(6) {
+  .navbar-nav li:first-of-type {
+    border-radius: 0.25em 0.25em 0 0; }
+  .navbar-nav li:nth-last-of-type(2) {
+    border-radius: 0 0 0.25em 0.25em; }
+  .navbar-nav li:last-of-type {
     margin-top: 10px;
     border-radius: 0.25em;
     height: 85px; }
