@@ -383,6 +383,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/icons/_Not Tiny/dev-ops.png": {
+		"ft": 32768,
+		"iS": 15728,
+		"oA": 0,
+		"oAP": "/assets/icons/_Not Tiny/dev-ops.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/icons/_Not Tiny/devtools.png": {
 		"ft": 32768,
 		"iS": 25366,
@@ -471,11 +482,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/icons/_Not Tiny/ms-teams.png": {
+		"ft": 32768,
+		"iS": 11977,
+		"oA": 0,
+		"oAP": "/assets/icons/_Not Tiny/ms-teams.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/icons/_Not Tiny/photoshop.png": {
 		"ft": 32768,
 		"iS": 5582,
 		"oA": 0,
 		"oAP": "/assets/icons/_Not Tiny/photoshop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icons/_Not Tiny/react-icons.png": {
+		"ft": 32768,
+		"iS": 31355,
+		"oA": 0,
+		"oAP": "/assets/icons/_Not Tiny/react-icons.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -575,6 +608,17 @@
 		"iS": 17615,
 		"oA": 0,
 		"oAP": "/assets/icons/_Not Tiny/visual-studio-code.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icons/_Not Tiny/vs.png": {
+		"ft": 32768,
+		"iS": 41838,
+		"oA": 0,
+		"oAP": "/assets/icons/_Not Tiny/vs.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -762,6 +806,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/icons/dev-ops.png": {
+		"ft": 32768,
+		"iS": 12303,
+		"oA": 0,
+		"oAP": "/assets/icons/dev-ops.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/icons/devtools.png": {
 		"ft": 32768,
 		"iS": 9689,
@@ -850,11 +905,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/icons/ms-teams.png": {
+		"ft": 32768,
+		"iS": 6140,
+		"oA": 0,
+		"oAP": "/assets/icons/ms-teams.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/icons/photoshop.png": {
 		"ft": 32768,
 		"iS": 3605,
 		"oA": 0,
 		"oAP": "/assets/icons/photoshop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icons/react-icons.png": {
+		"ft": 32768,
+		"iS": 12641,
+		"oA": 0,
+		"oAP": "/assets/icons/react-icons.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -965,6 +1042,17 @@
 		"iS": 5926,
 		"oA": 0,
 		"oAP": "/assets/icons/visual-studio-code.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/icons/vs.png": {
+		"ft": 32768,
+		"iS": 10864,
+		"oA": 0,
+		"oAP": "/assets/icons/vs.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1517,6 +1605,16 @@
 		"oAP": "/assets/projects/rtg-photography.psd",
 		"oF": 0
 		},
+	"/assets/svg/react-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/svg/react-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/css/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1820,6 +1918,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/scss/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/main-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/scss/main.css": {
 		"aP": 1,
