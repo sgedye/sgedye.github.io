@@ -24,7 +24,7 @@ const educationData = [
     id: "fCC",
     imgAddr: "fcc-small.png",
     title: "Front End Development",
-    subTitle: "<ul><li>Responsive Web</li><li>Javascript Algorithms</li></ul>",
+    subTitle: "<ul><li>Responsive Web</li><li>Javascript Algorithms</li><li>Front End Libraries</li></ul>",
     school: "Free Code Camp"
   }
 ]
